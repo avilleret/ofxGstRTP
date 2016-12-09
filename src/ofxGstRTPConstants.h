@@ -11,7 +11,7 @@
 /// when enabled the addon will have dependencies with ofxXMPP and ofxNice
 /// if disabled ofxGstXMPPRTP won't work and connection will need to be done
 /// through ofxGstServer/client to a specific port and IP address
-#define ENABLE_NAT_TRANSVERSAL 1
+#define ENABLE_NAT_TRANSVERSAL 0
 
 /// when enabled the addon will have dependencies with ofxEchoCancel on linux
 /// the pulse server can do echo cancellation natively so there's no need to enable
